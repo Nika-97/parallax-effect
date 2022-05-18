@@ -18,7 +18,7 @@ body {
 
 .parallax {
     width: 100%;
-    height: 100vh;
+    height: 100vmin;
     position: relative;
     display: flex;
     justify-content: center;
@@ -61,6 +61,7 @@ body {
     top: 7%;
     background: -webkit-linear-gradient(rgb(114, 114, 114), rgb(221, 221, 221));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 1;
 }
